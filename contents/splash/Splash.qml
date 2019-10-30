@@ -29,14 +29,9 @@ TextMetrics {
         height: 1080
         opacity: 0.75
         
-        source: "/home/suson/.wallpaper"
+        source: "images/background.png"
 
-        FastBlur {
-            source: parent
-            anchors.fill: parent
-            radius: 2
-        }
-
+        
     }
 
     Image {
